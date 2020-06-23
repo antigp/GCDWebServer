@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "GCDWebServer",
     products: [
-        .library(name: "GCDWebServer", targets: ["GCDWebServer"]),
+        .library(name: "GCDWebServer", type: .dynamic, targets: ["GCDWebServer"]),
     ],
     targets: [
         .target(
